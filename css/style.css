@@ -1,0 +1,236 @@
+html {
+  scroll-behavior: smooth;
+}
+
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #ffffff;
+    color: #333;
+}
+
+h1 {
+    text-align: center;
+    margin-top: -10px; 
+    font-size: 60px;
+}
+
+
+h2 {
+    text-align: center;
+    margin: auto;
+    font-size: 36px;   
+}
+
+h3 {
+  text-align: right;
+  margin-right: 25%;
+  font-size: 36px;   
+}
+
+/* Navigation Bar */
+nav {
+    background-color: #333;
+    padding: 0;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+    margin-top: -50px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #0078d7;
+}
+
+#text1{
+  display: flex;
+    text-align: center;
+    align-items: top;
+    max-width: 50%;
+    padding-left: 40%;
+    font-size: 18px;
+    z-index: 30;
+}
+
+#text2{
+  display: flex;
+    text-align: center;
+    align-items: top;
+    max-width: 50%;
+    padding-left: 40%;
+    font-size: 18px;
+    z-index: 30;
+}
+
+/* Sections */
+section {
+    padding: 60px 20px;
+    margin-top: 20px;
+    text-align: center;
+    scroll-margin-top: 250px
+}
+
+section#about {
+  background-color: #efefef;
+  
+}
+  
+
+section#skills, section#projects {
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+section#contact {
+    background-color: #efefef;
+    padding-bottom: 30px;
+}
+
+section#profile {
+    align-items: left;
+}
+
+/*experiences*/
+
+/* Section Styling */
+/* Experience Section */
+.experience-section {
+    padding: 50px 20px;
+    background-color: #f8f8f8;
+    color: #333;
+    font-family: Arial, sans-serif;
+  }
+  
+  .section-title {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 40px;
+    font-weight: 700;
+    color: #333;
+  }
+  
+  /* Experience Item Styling */
+  .experience-item {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin-bottom: 30px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+  }
+  
+  /* Job Info Styling */
+  .job-info {
+    flex: 1;
+    margin-right: 20px;
+  }
+  
+  .company-name {
+    font-size: 24px;
+    font-weight: 600;
+    color: #2c3e50;
+    margin-left: 90%;
+  }
+  
+  .job-title {
+    font-size: 18px;
+    color: #7f8c8d;
+    margin-left: 90%; 
+    
+  }
+  
+  /* Skills Section Styling */
+  .skills {
+    flex: 1.5;
+    margin-right: 20px;
+  }
+  
+  .skills p {
+    font-size: 18px;
+    color: #7f8c8d;
+    line-height: 1.6;
+    font-weight: bold;
+  }
+  
+  .skills li {
+    margin-bottom: 5px;
+    font-size: 18px;
+  }
+  
+  /* Job Description Styling */
+  .job-description {
+    flex: 2;
+    font-size: 16px;
+    color: #7f8c8d;
+    line-height: 1.6;
+    max-width: 100%;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    white-space: normal;
+    max-width: 7%;
+    margin-right: 3%;
+    align-items: center;
+  }
+  
+  .container {
+    max-width: 900px; /* Limits the width of the container for readability */
+    margin: 0 auto; /* Centers the container horizontally */
+    padding: 20px; /* Adds padding around the content */
+  }
+  
+  .paragraph {
+    font-family: 'Arial', sans-serif; /* Sets the font family */
+    font-size: 1.2em; /* Adjusts the text size */
+    line-height: 1.6; /* Increases the space between lines for readability */
+    color: #333; /* Sets the text color */
+    text-align: justify; /* Makes the text align on both the left and right edges */
+    margin-bottom: 20px; /* Adds space below the paragraph */
+    z-index: 10;
+  }
+  
+  .float-right1 {
+    position: absolute;
+    top: 300px;
+    right: 100px;
+    z-index: -1;
+    max-width: 300px;
+}
+
+.float-right2 {
+  position: absolute;
+  top: 530px;
+  right: 100px;
+  z-index: -1;
+  max-width: 300px;
+}
+
+.float-right3 {
+  position: absolute;
+  bottom: -110px;
+  right: 100px;
+  z-index: -1;
+  max-width: 300px;
+}
